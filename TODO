@@ -1,0 +1,5 @@
+rerun autoscan
+test --extract-newer
+test --extract-no-paths
+test --password
+fill or remove unrar.h

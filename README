@@ -1,0 +1,31 @@
+
+unrar is a free software version of the non-free unrar utility that exists
+on many GNU/Linux systems today. It uses the GPL'd UniquE RAR Library by
+Christian Scheurer and Johannes Winkelmann. This program is a simple
+command-line front-end to this library, and can list and extract RAR
+archives. It does not rival the non-free unrar in terms of features, but
+special care has been taken to ensure it meets most user's needs and it is
+hoped that GUI archivers such as GNOME's (file-roller) and KDE's ark will
+use this utility as a back-end.
+
+	Usage: unrar [OPTION...] ARCHIVE [FILE...] [DESTINATION]
+	Extract files from rar archives.
+ 
+	  -x, --extract              Extract files from archive (default)
+	  -t, --list                 List files in archive
+	  -f, --force                Overwrite files when extracting
+	      --extract-newer        Only extract newer files from the archive
+	      --extract-no-paths     Don't create directories while extracting
+	  -p, --password             Decrypt archive using a password
+	  -?, --help                 Give this help list
+	      --usage                Give a short usage message
+	  -V, --version              Print program version
+ 
+	Report bugs to <benasselstine@canada.com>.
+
+
+You can download the latest version from http://gna.org/files/?group=unrar
+
+[1] GPL'd UniquE RAR Library, http://www.unrarlib.org/
+[2] file-roller, http://fileroller.sourceforge.net/
+

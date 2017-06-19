@@ -1,0 +1,17 @@
+2004-06-14  Ben Asselstine  <ben@asselstine.com>
+
+	* src/unrarlib.h, src/Makefile.am: Moved the _DEBUG_LOG define into 
+	Makefile.am, and commented it out.
+	* src/opts.c (parse_opts): fixed calling of getpass, so it only gets
+	called once even if --password is on the command-line twice.
+	* src/opts.c (parse_opts): now using realloc(n,NULL) to behave like
+	malloc(n), so that memory allocation only happens in one place.
+	* src/Makefile.in: regenerated.
+	* src/unrar.c: added Jeroen's name to the visible copyright notice.
+
+2004-06-05  Jeroen Dekkers  <jeroen@dekkers.cx>
+
+	* src/opts.c (options): Put string constants directly in the
+	structure.
+
+
